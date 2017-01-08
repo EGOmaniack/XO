@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Delicious;
+    src: url('/fonts/10175.otf');
+}
+
+@font-face {
+    font-family: Delicious;
+    font-weight: bold;
+    src: url('/fonts/10175.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    background: #B69274 url(/pics/bg_blur.jpeg) repeat-y;
+    background-size: cover;
+    font-weight: bold;
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+    overflow: auto;
+}
+
+.wrapper {
+    min-width: 700px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.xo {
+    color: #121212;
+    padding: 120% 0 0;
+    float: left;
+    width: fit-content;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    height: 70px;
+    background: #404040;
+}
+
+#name {
+    float: left;
+    width: fit-content;
+    padding: 25px 13px;
+    font-family: Delicious;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+}
+
+#logo {
+    margin: 1px 3px 0 0;
+    float: right;
+    width: 108px;
+    height: 68px;
+    background-image: url(/pics/logo_min.png);
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.middle {
+    width: 100%;
+    padding: 0 0 100px;
+    /*position: relative;*/
+}
+
+
+/*.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}*/
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0 0 0 270px;
+}
+
+#inf {
+    color: #242424;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10% 0;
+    padding: 10px;
+    max-width: 80%;
+    min-width: 400px;
+    background-color: rgba(253, 253, 253, 0.6);
+    box-shadow: 0 0 10px 0 white;
+    /*box-shadow: 0 0 10px white;*/
+    border-radius: 20px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+
+.left-sidebar {
+    float: left;
+    width: auto;
+    margin-left: -100%;
+    position: relative;
+    /*background: #B5E3FF;*/
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    margin: -50px auto 0;
+    min-width: 700px;
+    height: 50px;
+    background: #404040;
+    position: relative;
+    overflow: hidden;
+}
+
+#patifon {
+    width: fit-content;
+    padding: 15px 0 0;
+    height: 40px;
+    font-family: Delicious;
+    font-size: 40px;
+    color: white;
+}
