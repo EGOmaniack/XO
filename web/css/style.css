@@ -37,6 +37,7 @@ summary {
 body {
     background: #B69274 url(/pics/bg_blur.jpeg) repeat-y;
     background-size: cover;
+    background-attachment: fixed;
     font-weight: bold;
     font: 12px/18px Arial, sans-serif;
     height: 100%;
@@ -47,7 +48,7 @@ body {
     min-width: 700px;
     min-height: 100%;
     height: auto !important;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .xo {
@@ -58,6 +59,7 @@ body {
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 160px;
+    text-shadow: 1px 1px 0 white, 2px 2px 30px rgba(33,33,33,0.35);
 }
 
 
@@ -67,6 +69,9 @@ body {
 .header {
     height: 70px;
     background: #404040;
+    width: 100%;
+    top: 0px;
+    position: fixed;
 }
 
 #name {
@@ -92,6 +97,7 @@ body {
 -----------------------------------------------------------------------------*/
 
 .middle {
+    margin: 70px 0 0 0;
     width: 100%;
     padding: 0 0 100px;
     /*position: relative;*/
