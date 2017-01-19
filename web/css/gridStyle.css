@@ -27,3 +27,7 @@
     transform: rotateY(180deg);
     background-color: #FFFC3C !important ;
 }
+#out{
+    margin: 20px auto;
+    width: fit-content;
+}
