@@ -1,15 +1,13 @@
-alert(000);
 $(document).ready(
     function(){
-        alert(111);
         var cells = "<div class='cell'></div>";
         //$(".canvas").html(cells + cells);
-        var rows = $(".canvas").width()/40;
-        // for(var i = 0;i < 15; i++){
-        //     cells = cells + "<div class='cell'></div>";
-        // }
-        alert(2222);
+        for(var i = 0;i < 20; i++){
+            for(var j = 0;j<9;j++){
+                cells = cells + "<div class='cell'></div>";
+            }
+        }
         $(".canvas").html(cells);
-
+        //$(".cell").css("position" , "absolute");
     }
 );

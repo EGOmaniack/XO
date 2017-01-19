@@ -1,8 +1,9 @@
 .canvas{
-    background-color: #DDFFFF;
+    background-color: #C47FE9;
     margin: 150px auto 0;
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 360px;
+    overflow: hidden;
 }
 
 .cell{
@@ -11,4 +12,12 @@
     height: 38px;
     margin: 1px;
     display: inline-block;
+    transition: .5s ease-in-out;
+}
+
+.cell:hover{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   box-shadow: 0 0 10px black;
 }
