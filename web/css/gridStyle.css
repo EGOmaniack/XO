@@ -1,5 +1,5 @@
 .canvas{
-    background-color: #C47FE9;
+    background-color: #4687AC;
     margin: 150px auto 0;
     width: 800px;
     height: 360px;
@@ -7,17 +7,23 @@
 }
 
 .cell{
-    background-color: #B34EE9;
+    background-color: #13699A;
     width: 38px;
     height: 38px;
     margin: 1px;
     display: inline-block;
-    transition: .5s ease-in-out;
+    transition: .2s ease-out;
 }
 
 .cell:hover{
-   position: absolute;
-   width: 50px;
-   height: 50px;
-   box-shadow: 0 0 10px black;
+    z-index: 3;
+    background-color: #127894;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    box-shadow: 0 0 20px ;
+}
+.flip{
+    transform: rotateY(180deg);
+    background-color: #FFFC3C !important ;
 }
