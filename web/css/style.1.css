@@ -16,6 +16,7 @@
 
 html {
     height: 100%;
+    /*overflow: hidden;*/
 }
 
 body {
@@ -24,15 +25,29 @@ body {
     background-attachment: fixed;
     font-weight: bold;
     font: 12px/18px Arial, sans-serif;
+    /*height: 90%;*/
     overflow: auto;
 }
 
-/*header start*/
+
+#xo {
+    display: inline-block;
+    color: #121212;
+    padding: 50px 0 0;
+    float: left;
+    width: 300px;
+    height: 80px;
+    margin: 50px 0 0 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+    text-shadow: 1px 1px 0 white, 2px 2px 30px rgba(33,33,33,0.35);
+}
+
 .header {
     height: 70px;
     background: #404040;
     width: 100%;
-    min-width: 570px;
     top: 0px;
     position: fixed;
 }
@@ -54,35 +69,15 @@ body {
     height: 68px;
     background-image: url(/pics/xo_logo_min.png);
 }
-/*header ends*/
 
-#centr{
-    margin: 75px auto 0;
+.wrapper{
+    margin: 10% 0 0 0;
+}
+.centr{
     width: 80%;
-    min-width: 876px;
-    max-width: 1000px;
+    background-color: black;
 }
-.xoclass{
-    display: block;
-    padding: 50px 0 0;
-    float: left;
-    width: 275px;
-    height: 75px;
-    margin: 50px 0 0 20px;
-}
-#xo {
-    color: #121212;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 160px;
-    text-shadow: 1px 1px 0 white, 2px 2px 30px rgba(33,33,33,0.35);
-}
-#right{
-    float: right;
-}
-
 .inf {
-    display: block;
     color: #242424;
     font-weight: bold;
     line-height: 30px;
@@ -91,15 +86,23 @@ body {
     padding: 10px;
     max-width: 450px;
     width: fit-content;
+    /*min-width: 400px;*/
     background-color: rgba(253, 253, 253, 0.6);
     box-shadow: 0 0 10px 0 white;
+    /*box-shadow: 0 0 10px white;*/
     border-radius: 20px;
 }
-.down{
-    margin: 280px 0 0;
+
+#first, #third{
+float: left;
+margin: 10px 50% 10px 10px;
+}
+#second{
+    float: right;
+    margin: 10px 10px 10px 20% ;
 }
 
-/*footer start*/
+
 .footer {
     position: fixed;
     bottom: 0px;
@@ -111,6 +114,7 @@ body {
     /*position: relative;*/
     overflow: hidden;
 }
+
 #patifon {
     width: fit-content;
     padding: 15px 0 0;
@@ -119,4 +123,3 @@ body {
     font-size: 40px;
     color: white;
 }
-/*footer ends*/
